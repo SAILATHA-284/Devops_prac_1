@@ -10,6 +10,8 @@ pipeline {
             steps {
                 script {
                     bat "copy index2.html C:\\xampp\\htdocs\\index2.html"
+                    bat "copy index1.html C:\\xampp\\htdocs\\index2.html"
+                    bat "copy index3.html C:\\xampp\\htdocs\\index2.html"
                 }
             }
         }
